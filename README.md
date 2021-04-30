@@ -15,7 +15,7 @@ This document provides instructions for running machine learning models download
 
 - The following instructions describe the recommended workflow of data extraction and preprocessing, followed by ML training.
 
-1.1 Data exraction
+### 1.1 Data exraction
 
 - These instructions are for extracting vasp energies and CME's, prior to machine learning. 
 
@@ -28,7 +28,7 @@ This document provides instructions for running machine learning models download
 
 - The 'data.ipynb' notebook should be launched and run from within 'rundir', where outputs will also be saved. 
 
-1.2. Machine learning
+### 1.2. Machine learning
 
 - Machine learning notebooks ('mlp.ipynb', 'gbdt.ipynb', 'lr-emix.ipynb' and 'lr-egap.ipynb') should be launched from their
   respective directories. 
