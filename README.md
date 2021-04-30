@@ -4,6 +4,12 @@ This document provides instructions for running machine learning models download
 
 * The necessary _conda_ environment can be imported from the file 'environmnet.yml'.
 
+On Linux/MacOS
+```
+conda env create -f environment.yml
+conda activate ml-solid-solns
+```
+
 ### 1.1 Data exraction
 
 We provide the raw data (i.e. DFT outputs) with notebooks for pre-processing them. This pre-processing can take some time so we also provide pre-processed data sets ready to be used with the different fitting procedures.
