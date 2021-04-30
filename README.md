@@ -16,6 +16,12 @@ It is assumed that the default directory structure, as downloaded from the repos
 * You can use pre-generated files if you wish, this is found in `repository-data/coulomb_matrix/input_data_cme.pkl`
 * If you wan to do your own pre-processing;  `data.ipynb` notebook can be found in `coulomb_matrix/data/rundir/` this can be used to generate the file required. 
 
+#### These instructions are for extracting vasp energies and cluster correlation functions, prior to machine learning. 
+
+* 'repository-data.zip' should be downloaded from Zenodo (URL: ) and unzippled in the top level of this repo.
+* You can use pre-generated files if you wish, this is found in `repository-data/cluster_correlation_functions/input_data_ccf.pkl`
+* If you wan to do your own pre-processing;  `data-ccf.ipynb` notebook can be found in `cluster_correlation_functions/data/rundir/` this can be used to generate the file required. 
+
 ### 1.2. Machine learning
 Machine learning notebooks ('mlp.ipynb', 'gbdt.ipynb', 'lr-emix.ipynb' and 'lr-egap.ipynb') can be found in sub-directories.
 
