@@ -18,9 +18,9 @@ We provide the raw data (i.e. DFT outputs) with notebooks for pre-processing the
 
 It is assumed that the default directory structure, as downloaded from the repository, remains in place. 
 
-* 'repository-data.zip' should be downloaded from Zenodo (URL: ) and unzippled in the top level of this repo.
+* 'repository-data.zip' should be downloaded from Zenodo (https://doi.org/10.5281/zenodo.4736810) and unzippled in the top level of this repo.
 * You can use pre-generated files if you wish, this is found in `repository-data/coulomb_matrix/input_data_cme.pkl`
-* If you wan to do your own pre-processing;  `data.ipynb` notebook can be found in `coulomb_matrix/data/rundir/` this can be used to generate the file required. 
+* If you want to do your own pre-processing;  `data.ipynb` notebook can be found in `coulomb_matrix/data/rundir/` this can be used to generate the file required. 
 
 #### These instructions are for extracting vasp energies and cluster correlation functions, prior to machine learning. 
 
