@@ -4,7 +4,7 @@ This document provides instructions for running machine learning models download
 
 * The necessary _conda_ environment can be imported from the file 'environment.yml'.
 
-On Linux/MacOS
+On Linux/MacOS:
 ```
 conda env create -f environment.yml
 conda activate ml-solid-solns
@@ -24,7 +24,7 @@ It is assumed that the default directory structure, as downloaded from the repos
 
 #### These instructions are for extracting vasp energies and cluster correlation functions, prior to machine learning. 
 
-* 'repository-data.zip' should be downloaded from Zenodo (URL: ) and unzippled in the top level of this repo.
+* 'repository-data.zip' should be downloaded from Zenodo (URL: ) and unzipped in the top level of this repo.
 * You can use pre-generated files if you wish, this is found in `repository-data/cluster_correlation_functions/input_data_ccf.pkl`
 * If you wan to do your own pre-processing;  `data-ccf.ipynb` notebook can be found in `cluster_correlation_functions/data/rundir/` this can be used to generate the file required. 
 
